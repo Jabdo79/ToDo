@@ -50,7 +50,7 @@
         <td><a href="remove_completed_tasks.html">Remove Completed Tasks</a></td>
         <td>
             <form action="index.html" method="post">
-                Sort by:
+                Filter by:
                 <select id="displayStatus" name="displayStatus" onchange="this.form.submit()">
                     <option id="All" value="All">All Tasks</option>
                     <option id="Active" value="Active">Active Tasks</option>
